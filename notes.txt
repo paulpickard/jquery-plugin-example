@@ -1,0 +1,37 @@
+Presentation Notes:
+	1 - generic on-page method
+	2 - jquery method
+		- always return this
+		- you can pass in a collection, so always return this.each()
+		- top level "this" is already a jquery object, no need to do $(this)
+		- chaining
+		- private function
+		- closure in setTimeout
+
+	3 - pass in options
+		- can over-ride jQuery.fn.reminders.defaults
+		- inline v. defaults
+
+	4 - use the $ symbol
+		- self-executing function
+		- start with semi-colon
+		- plays nice with other libraries
+
+	5 - private functions
+		- function is namespaced
+		- cannot call from outside of plugin
+		- can re-factor as plugin evolves without affecting others
+		- easier to write tests for
+
+	6 - static functions
+		- called on $.reminders, rather than $(element).reminders()
+
+	7 - multiple methods / data
+		- $.data() is useful for attaching options and state info to the elements
+
+	8 - events
+		- namespacing (click.reminders)
+
+	9 - css
+		- add class when method is called
+		- give css same name as js

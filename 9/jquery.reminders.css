@@ -1,0 +1,8 @@
+ul.reminders{
+	border:2px solid green;
+	cursor:pointer;
+}
+
+ul.reminders > li{
+	font-weight:bold;
+}
