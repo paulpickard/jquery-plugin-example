@@ -20,6 +20,8 @@ The project is actually split into 9 different examples that build on each other
 8. Namespacing events.
 9. Adding style with CSS.
 
+If you are looking for a full-blown plugin example, look at example 9.
+
 Planned Updates
 -------
 
